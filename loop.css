@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 7px;
+
+}
+ nav .logo{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 35px;
+ }
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+     transition: 3s;
+     cursor: pointer;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 7px;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+   transition: 3s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+     cursor: pointer;
+}
+.profile{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#fcfc;
+    letter-spacing: 2px;
+    
+}
+h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 7px;
+}
+span{
+    color: #f9004d;
+}
+h3{
+    color: white;
+padding-bottom: 9px;
+}
+.form form{
+    display:flex;
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+    margin-bottom: 9px;
+    max-width: 100%;
+    position: relative;
+}
+
+.form input:first-child{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  padding: 14px 80px 14px 15px;
+  border: 2px solid #f9004d;
+  outline:none;
+  border-radius: 1.5rem;
+}
+.form input:last-child{
+    border: none;
+    position: absolute;
+    background-color: #f9004d;
+    display: inline-block;
+    border-radius: 1.2rem;
+    padding: 10px 30px;
+    color: white;
+    outline: none;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+    left: 11.5rem;
+    top: 6.7px;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+img{
+    height: auto;
+    width: 430px;
+}
+.text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about h2{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+    color: whitesmoke;
+}
+.about h4{
+    padding: 12px;
+    font-size: 10px;
+    color: white;
+}
+p{
+    color: white;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #fcfc;
+}
+.about button{
+    margin: 20px;
+    padding: 7px 14px;
+    background-color: #f9004d;
+    color: white;
+    outline: none;
+    border-radius: 2rem;
+
+}
+.about button:hover{
+    border: 2px solid #f9004d;
+    background-color: transparent;
+    cursor: pointer;
+}
+.services{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+    margin: 2rem auto;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 1130px;
+    margin: auto;
+}
+.vox{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+    min-height: 400px;
+}
+.card{
+    height: 310px;
+    width: 310px;
+    padding: 20px 35px;
+    background: #191919;
+    margin: 15px;
+    /* position:absolute;
+    overflow: hidden; */
+    text-align: center;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.vox img{
+    width: 50px;
+}
+h5{
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+}
+.button{
+    text-decoration: none;
+    background-color: #f9004d;
+    color: beige;
+    padding: 5px 8px;
+    border-radius:1.5rem;
+    font-size: 15px;
+    
+}
+.button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+}
+.hire{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #191919;
+}
+.hireme{
+    background-color: #f9004d;
+    padding: 4px 6px;
+    color: whitesmoke;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.hireme:hover{
+    background: transparent;
+    border: 1px solid #f9004d;
+}
+.hire p{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.grid-container{
+    display: grid;
+    width: 700px;
+    background-color: #f9004d;
+    text-align: center;
+    margin: 130px auto;
+    padding: 20px 0px 20px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: auto;
+
+    
+}
+.bard{
+    width: 380px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    margin: 30px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #191919;
+    justify-content: space-between;
+
+}
+.bard img{
+    min-width: 25px;
+    max-width: 30px;
+}
+.bard h2{
+  color: whitesmoke;
+  padding: 5px;
+}
+button{
+    background-color: #f9004d;
+    color: beige;
+    padding: 5px 8px;
+    border-radius:1.5rem;
+    font-size: 15px;
+    
+
+}
+button:hover{
+    background: transparent;
+    border: 1px solid #f9004d;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
